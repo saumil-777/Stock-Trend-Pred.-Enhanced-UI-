@@ -57,9 +57,9 @@ A Streamlit web app for predicting stock trends using historical data and an LST
 
    Make sure `keras_model.h5` is present in the same folder as `app.py`.
 
-Click Deploy(Link- ).
+###Click Deploy(Link- ).
 
-📝 Example Tickers
+###📝 Example Tickers
 Try entering:
 
 AAPL – Apple Inc.
@@ -70,16 +70,21 @@ TSLA – Tesla Inc.
 
 MSFT – Microsoft
 
-🧠 Model Info
+###🧠 Model Info
 The backend model is an LSTM (Long Short-Term Memory) neural network trained on normalized closing prices. It takes in sequences of the past 100 days to predict future stock trends.
 
-📷 Screenshots (optional)
-Dashboard	Prediction Plot
+📷 Screenshots 
+🔹 Main UI
+![UI](screenshots/ui.png)
 
-Add a /screenshots/ folder with sample images if you'd like visuals.
+🔹 Closing Price Over Time
+![Closing Price](screenshots/closing_price.png)
+
+🔹 Predicted vs Original
+![Prediction Plot](screenshots/prediction_plot.png)
 
 🙌 Credits
-Built by Your Name
+Built by Saumil Singhal
 
 Powered by Streamlit
 
