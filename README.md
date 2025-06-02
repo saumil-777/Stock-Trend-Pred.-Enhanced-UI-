@@ -73,15 +73,17 @@ MSFT – Microsoft
 ###🧠 Model Info
 The backend model is an LSTM (Long Short-Term Memory) neural network trained on normalized closing prices. It takes in sequences of the past 100 days to predict future stock trends.
 
-📷 Screenshots 
-🔹 Main UI
-![UI][([screenshots/ui.png](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/535f26c7d303f4d403bf3969455602dfcb9cb7e0/Screenshot%202025-06-02%20113152.png))](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/7ae85fd07590765ceb65fb9644c7413fd3b7d329/Screenshot%202025-06-02%20113152.png)
+## 🖼️ Screenshots
 
-🔹 Closing Price Over Time
-![Closing Price]([screenshots/closing_price.png](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/3a15c5b0c6788265820cc4a1b731771b5ffc376f/Screenshot%202025-06-02%20120914.png))
+### 🔹 Main UI
+![UI](screenshots/ui.png)
 
-🔹 Predicted vs Original
-![Prediction Plot](screenshots/prediction_plot.png)
+### 🔹 Closing Price Over Time
+![Closing Price](screenshots/closing_price.png)
+
+### 🔹 Moving Averages
+![Moving Averages](screenshots/moving_averages.png)
+
 
 🙌 Credits
 Built by Saumil Singhal
