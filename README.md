@@ -70,7 +70,7 @@ TSLA – Tesla Inc.
 
 MSFT – Microsoft
 
-----
+
 
 ### 🧠 Model Info
 The backend model is an LSTM (Long Short-Term Memory) neural network trained on normalized closing prices. It takes in sequences of the past 100 days to predict future stock trends.
@@ -81,7 +81,7 @@ The backend model is an LSTM (Long Short-Term Memory) neural network trained on 
 ### 🔹 Main UI
 ![UI](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/83c01821c9db4ae42111673bcd7be00109d56158/Screenshot%202025-06-02%20113152.png)
 
-### 🔹Data and Closing Price Over Time
+### 🔹Data Summary and Closing Price Over Time
 ![Closing Price](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/8ebe52afae87088f2854a6c361d9f131865d533c/Screenshot%202025-06-02%20120914.png)
 
 ### 🔹 Moving Averages
