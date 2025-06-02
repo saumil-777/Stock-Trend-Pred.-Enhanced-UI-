@@ -32,38 +32,30 @@ A Streamlit web app for predicting stock trends using historical data and an LST
    ```bash
    git clone https://github.com/your-username/stock-trend-predictor.git
    cd stock-trend-predictor
-Install dependencies
-(You can use requirements.txt from the repo or create a virtual environment)
+1. **Clone this repository:**
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the app
+   ```bash
+   git clone https://github.com/saumil-777/stock-trend-predictor-basic.git
+   cd stock-trend-predictor-basic
+   ```
 
-bash
-Copy
-Edit
-streamlit run app.py
-🔧 Folder Structure
-bash
-Copy
-Edit
-stock-trend-predictor/
-├── app.py                # Main Streamlit application
-├── keras_model.h5        # Pretrained LSTM model
-├── requirements.txt
-└── README.md
-🌐 Deployment (Streamlit Cloud)
-Push your project to GitHub.
+2. **Install dependencies:**
 
-Go to Streamlit Cloud and connect your GitHub repo.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Select app.py as the main file.
+   *(If you don’t have a `requirements.txt`, manually install: `streamlit`, `keras`, `pandas`, `numpy`, `matplotlib`, `yfinance`)*
 
-Add a keras_model.h5 file to the root directory of your repo.
+3. **Run the app:**
 
-Add your requirements.txt file (include tensorflow, yfinance, streamlit, etc.)
+   ```bash
+   streamlit run app.py
+   ```
+
+4. **Model file:**
+
+   Make sure `keras_model.h5` is present in the same folder as `app.py`.
 
 Click Deploy(Link- ).
 
