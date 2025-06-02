@@ -10,6 +10,8 @@ A Streamlit web app for predicting stock trends using historical data and an LST
 - 🧮 Calculates & visualizes **100-day** and **200-day moving averages**
 - 🤖 Uses a pre-trained **LSTM model** (Keras) to predict future stock prices
 - 📈 Compares predicted vs actual closing prices
+- 🗓️ Allows users to select custom start and end dates for analysis
+- 🔮 Predicts the **next trading day’s closing price** based on selected data range
 - 🖼️ Enhanced UI with **sidebar controls**, **responsive plots**, and **tooltips**
 
 ---
@@ -57,7 +59,18 @@ A Streamlit web app for predicting stock trends using historical data and an LST
 
    Make sure `keras_model.h5` is present in the same folder as `app.py`.
 
+----
+📝 Usage
+Enter the desired stock ticker symbol (e.g., AAPL, TSLA) in the sidebar.
 
+Select the start date and end date for the historical data you want to analyze.
+
+The app will fetch stock data within this range, display statistics, plot closing prices, and moving averages.
+
+The LSTM model will use the latest 100 days of data within your chosen range to predict the closing price for the next trading day (the day after your selected end date).
+
+This dynamic date selection allows you to predict future stock trends up to the latest available data.
+   
 ----
 ### 📝 Example Tickers
 Try entering:
