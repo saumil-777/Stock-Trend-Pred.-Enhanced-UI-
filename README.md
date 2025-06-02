@@ -82,7 +82,7 @@ The backend model is an LSTM (Long Short-Term Memory) neural network trained on 
 ![Closing Price](screenshots/closing_price.png)
 
 ### 🔹 Moving Averages
-![Moving Averages](screenshots/moving_averages.png)
+![Moving Averages]([screenshots/moving_averages.png](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/9777ef8934cbc92b3a8014d2b52a8d750c8454c7/Screenshot%202025-06-02%20113219.png))
 
 
 🙌 Credits
