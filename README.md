@@ -75,7 +75,7 @@ The backend model is an LSTM (Long Short-Term Memory) neural network trained on 
 
 📷 Screenshots 
 🔹 Main UI
-![UI](screenshots/ui.png)
+![UI]([screenshots/ui.png](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/535f26c7d303f4d403bf3969455602dfcb9cb7e0/Screenshot%202025-06-02%20113152.png))
 
 🔹 Closing Price Over Time
 ![Closing Price](screenshots/closing_price.png)
