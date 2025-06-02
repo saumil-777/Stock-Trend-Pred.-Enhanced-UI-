@@ -89,7 +89,7 @@ The backend model is an LSTM (Long Short-Term Memory) neural network trained on 
 
 ----
 
-### Live Deployment - 
+## Live Demo - https://ibkasmuyp5kvevrfazpdqh.streamlit.app/
 
 ----
 🙌 Credits
