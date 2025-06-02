@@ -78,13 +78,17 @@ The backend model is an LSTM (Long Short-Term Memory) neural network trained on 
 ### 🔹 Main UI
 ![UI](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/83c01821c9db4ae42111673bcd7be00109d56158/Screenshot%202025-06-02%20113152.png)
 
-### 🔹 Closing Price Over Time
+### 🔹Data and Closing Price Over Time
 ![Closing Price](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/8ebe52afae87088f2854a6c361d9f131865d533c/Screenshot%202025-06-02%20120914.png)
 
 ### 🔹 Moving Averages
-![Moving Averages]((https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/9777ef8934cbc92b3a8014d2b52a8d750c8454c7/Screenshot%202025-06-02%20113219.png))
+![Moving Averages](https://github.com/saumil-777/Stock-Trend-Pred.-Enhanced-UI-/blob/9777ef8934cbc92b3a8014d2b52a8d750c8454c7/Screenshot%202025-06-02%20113219.png)
 
+----
 
+###Live Deployment - 
+
+----
 🙌 Credits
 Built by Saumil Singhal
 
