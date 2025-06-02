@@ -6,6 +6,7 @@ from keras.models import load_model
 import streamlit as st
 import yfinance as yf
 import os
+from datetime import datetime, timedelta
 
 # -----------------------------
 # Page Setup
@@ -20,7 +21,7 @@ with st.sidebar:
     st.header("🛠️ Settings")
     user_input = st.text_input('Enter Stock Ticker (e.g. AAPL, TSLA)', 'AAPL')
     start_date = st.date_input("Start Date", pd.to_datetime('2010-01-01'))
-    end_date = st.date_input("End Date", pd.to_datetime('2024-11-01'))
+    end_date = st.date_input("End Date (latest available date)", datetime.today())
 
 # -----------------------------
 # Load Data
@@ -113,6 +114,24 @@ ax3.set_xlabel('Time')
 ax3.set_ylabel('Stock Price')
 ax3.legend()
 st.pyplot(fig3, use_container_width=True)
+
+# -----------------------------
+# Predict Tomorrow's Price
+# -----------------------------
+st.subheader("🔮 Predict Tomorrow's Closing Price")
+
+if st.button("Predict"):
+    last_100_days = df['Close'].tail(100).values.reshape(-1, 1)
+    scaled_input = scaler.transform(last_100_days)
+    x_future = []
+    x_future.append(scaled_input)
+    x_future = np.array(x_future)
+    
+    pred = model.predict(x_future)
+    predicted_price = pred[0][0] * scaling_factor
+
+    next_day = df.index[-1] + timedelta(days=1)
+    st.success(f"📅 Predicted closing price for **{next_day.date()}**: **${predicted_price:.2f}**")
 
 # -----------------------------
 # Footer
