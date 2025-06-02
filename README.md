@@ -59,7 +59,8 @@ A Streamlit web app for predicting stock trends using historical data and an LST
 
 ###Click Deploy(Link- ).
 
-###📝 Example Tickers
+----
+### 📝 Example Tickers
 Try entering:
 
 AAPL – Apple Inc.
@@ -69,8 +70,9 @@ GOOGL – Alphabet Inc.
 TSLA – Tesla Inc.
 
 MSFT – Microsoft
+----
 
-###🧠 Model Info
+### 🧠 Model Info
 The backend model is an LSTM (Long Short-Term Memory) neural network trained on normalized closing prices. It takes in sequences of the past 100 days to predict future stock trends.
 
 ## 🖼️ Screenshots
@@ -86,7 +88,7 @@ The backend model is an LSTM (Long Short-Term Memory) neural network trained on 
 
 ----
 
-###Live Deployment - 
+### Live Deployment - 
 
 ----
 🙌 Credits
