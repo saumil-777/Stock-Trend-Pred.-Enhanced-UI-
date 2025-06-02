@@ -103,6 +103,22 @@ scaling_factor = 1 / scaler.scale_[0]
 y_predicted *= scaling_factor
 y_test *= scaling_factor
 
+
+# Calculate accuracy metrics
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+import numpy as np
+
+mae = mean_absolute_error(y_test, y_predicted)
+mse = mean_squared_error(y_test, y_predicted)
+rmse = np.sqrt(mse)
+r2 = r2_score(y_test, y_predicted)
+
+# Show metrics in the app
+st.subheader('📊 Model Accuracy Metrics')
+st.write(f"Mean Absolute Error (MAE): {mae:.4f}")
+st.write(f"Mean Squared Error (MSE): {mse:.4f}")
+st.write(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
+st.write(f"R-squared (R²): {r2:.4f}")
 # -----------------------------
 # Prediction Plot
 # -----------------------------
