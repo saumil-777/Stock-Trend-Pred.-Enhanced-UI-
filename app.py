@@ -153,4 +153,4 @@ if st.button("Predict"):
 # Footer
 # -----------------------------
 st.markdown("---")
-st.caption("🚀 Built with Streamlit, yFinance, Keras & Matplotlib")
+st.caption("Built with Streamlit, yFinance, Keras & Matplotlib")
